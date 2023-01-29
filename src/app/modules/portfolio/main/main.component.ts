@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
+  isNavExpanded:boolean = false;
 
+  expandNav():void{
+    this.isNavExpanded = !this.isNavExpanded;
+    console.log(this.isNavExpanded);
+  }
 }

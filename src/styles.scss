@@ -1,0 +1,27 @@
+:root{
+  --primary-color:#00144c;
+  --accent-color:#647AA3;
+  --white-color:#f1f1f1;
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover{
+  color: unset;
+}
+
+.-flexRowAllCenter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.-flexColumnAllCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

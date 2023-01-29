@@ -1,5 +1,69 @@
 <div class="background-container">
-  <div class="stars"></div>
+  <div class="stars">
+  </div>
+
   <div class="twinkling"></div>
   <div class="clouds"></div>
+
+  <!-- Inicio content -->
+  <div class="content">
+
+    <nav class="navbar">
+
+      <div class="navbarContainer">
+
+        <a href="">
+          <h2>{{'{ Kevin }'}}</h2>
+        </a>
+
+
+        <button class="hamburguer" (click)="expandNav()"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg"
+                      fill="#f1f1f1"
+                      width="48px"
+                      height="48px"
+          >
+            <path
+              d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"
+            />
+          </svg>
+        </button>
+
+      </div>
+
+
+      <!--(isNavExpanded === true ? "expanded fadein" : "fadeout")-->
+      <div
+        class="navigationMenu "
+        [ngClass]="{'expanded' : isNavExpanded === true}"
+        >
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href='#footer'>Contact</a>
+                </li>
+            </ul>
+
+      </div>
+    </nav>
+
+    <section class="section1">
+
+      <div class="title titleAnimation -flexColumnAllCenter -textWhite">
+
+        <h1>Kevin Espinoza</h1>
+        <h2>Front End Software Developer</h2>
+      </div>
+
+    </section>
+  </div>
+  <!-- Fin content -->
+
 </div>
+
