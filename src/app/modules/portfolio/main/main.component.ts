@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class MainComponent {
   isNavExpanded:boolean = false;
 
+  cvURL : string = './../../../assets/Resume-KevinEspinoza.pdf';
+
   expandNav():void{
     this.isNavExpanded = !this.isNavExpanded;
     console.log(this.isNavExpanded);
