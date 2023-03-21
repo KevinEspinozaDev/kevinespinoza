@@ -74,8 +74,10 @@ $navbarHeight:3em;
   left: 75%;
   top: 85%;
 
+  box-shadow: rgb(0, 0, 0) 8px 8px 10px;
+
   border: 2px solid;
-  animation: fabanimation 3s infinite alternate-reverse;
+  //animation: fabanimation 2s infinite alternate-reverse;
 
   img{
   }
@@ -83,12 +85,12 @@ $navbarHeight:3em;
 
 @keyframes fabanimation {
   from {
-    border: 2px solid;
+    border: 3px solid;
     border-color: #FFFFFF;
   }
 
   to{
-    border: 2px solid;
+    border: 3px solid;
     border-color: #003de4
   }
 }
